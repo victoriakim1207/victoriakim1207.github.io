@@ -1,0 +1,129 @@
+.container {
+  max-width: 960px;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #999;
+  transition: ease-in-out color .15s;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.lead font-weight-normal{
+    max-width: 100px;
+}
+/*
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+#back{
+        background-image: url(happyvan.jpg);
+     width:auto;
+    height:500px;
+    background-size: cover;
+          background-position: center;
+        background-repeat: no-repeat;
+        color:black;
+        font-weight: 500;
+    
+      box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+
+    
+}
+.my-3 py-3{
+    
+    background-image: url(ancora.html);
+}
+.button{
+    
+      background-color: black;
+  color: white;
+  padding: 14px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+    font-size:24pt;
+    
+}
+.map{
+    
+  margin: auto;
+  width: 60%;
+  border: 3px solid lightblue;
+  padding: 50px;
+    font-size:16pt;
+    text-align: center;
+}
+.panel-heading{
+    text-align: center;
+    
+}
+
+
+
+.flex-equal > * {
+  -ms-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
+.overflow-hidden { overflow: hidden; }
+
+
+.restaurants {
+    padding: 100px 100px;
+    
+    
+}
+.media{
+margin-top: 100px;
+   
+}
+.media-body{
+    
+    margin-left:30px;
+    max-width: 530px;
+}
+.hding{
+    text-align: center;
+    margin-top: 80px;
+    
+}
+
+.btn{
+    text-align: center;
+    margin-left: 600px;
+    
+}
+.mySlides {display:none;
+}
+.Slide{
+    text-align: center;
+    
+    
+}
+
+.imageslide{
+    margin-left: 400px;
+    
+    
+}
+.bbtn{
+    margin-left: 0;
+    
+    
+}
